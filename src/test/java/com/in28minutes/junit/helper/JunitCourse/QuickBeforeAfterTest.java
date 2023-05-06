@@ -5,7 +5,7 @@ import org.junit.jupiter.api.*;
 public class QuickBeforeAfterTest {
 
     @BeforeAll
-    public void beforeAll()
+    public static void beforeAll()
     {
         System.out.println("Before All tests");
     }
@@ -35,7 +35,7 @@ public class QuickBeforeAfterTest {
     }
 
     @AfterAll
-    public void afterAll()
+    public static void afterAll()
     {
         System.out.println("After All tests");
     }
